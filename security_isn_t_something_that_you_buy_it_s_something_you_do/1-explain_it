@@ -1,0 +1,10 @@
+What should you create? Using what?
+create SSH key authentication to the server to generate an SSH key pair on my local computer using a special utility called ssh-keygen
+
+What should you do with the public key? How will it be used? What will it do?
+I should use the public key to authenticate by embeding my SSH public key in my new server's root account and this is will allow me to log into the server from my computer with my  private key.
+
+What should you do with the private key? How will it be used? What will it do?
+I should keep it to my self and not share it with any one ,
+when I want to send a message to the server it will be encrypted by my private key and the server can dycript the message using my public key that I shared it and when the sever want to send me a massage it will be encpted by my pubilc key and I can dycrited using my private key 
+it will be used along with my public key to sign in to the sever without providing an account password
