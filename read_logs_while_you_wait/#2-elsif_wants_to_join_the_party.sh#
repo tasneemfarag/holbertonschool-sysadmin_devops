@@ -1,0 +1,4 @@
+while read line
+do
+echo "$line" | grep "HEAD" "GET"
+done < $1
