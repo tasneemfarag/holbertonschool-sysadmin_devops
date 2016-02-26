@@ -1,4 +1,4 @@
 while read line
 do
-echo "$line" | 
-done > $1
+echo "$line" | grep "HEAD" 
+done < $1
